@@ -1,0 +1,7 @@
+# Optional Jekyll configuration. The portfolio is also usable as a plain static
+# GitHub Pages site, so no Jekyll plugins are required.
+title: "Tabassum Haque Rose"
+baseurl: ""
+url: ""
+exclude:
+  - README.md

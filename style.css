@@ -1,0 +1,70 @@
+/* AcademicPages / Minimal-Mistakes inspired styling, customized only for this portfolio. */
+*{box-sizing:border-box}
+html{font-size:16px;scroll-behavior:smooth}
+body{margin:0;background:#fff;color:#494e52;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+a{color:#2f6f9f;text-decoration:none}a:hover{color:#1f4e70;text-decoration:underline}
+.site-header{border-bottom:1px solid #e5e5e5;min-height:60px;background:#fff}
+.masthead{max-width:1280px;margin:0 auto;padding:0 2em;display:flex;align-items:center;min-height:60px}
+.site-title{font-size:1.05rem;font-weight:700;color:#555;display:none}
+.nav{margin-left:auto}
+.nav ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;flex-wrap:wrap}
+.nav li{margin:0}
+.nav a{display:block;padding:20px 12px;color:#555;font-size:.9rem;font-weight:500;line-height:1.1}
+.nav a:hover,.nav a.active{color:#000;text-decoration:none}
+.page{max-width:1280px;margin:0 auto;padding:2.8em 2em 4em;display:grid;grid-template-columns:250px minmax(0,1fr);gap:4.2em}
+.sidebar{font-size:.85rem}
+.author-profile{text-align:center}
+.author-avatar{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center 25%;display:block;margin:0 auto 18px;border:0}
+.author-name{font-size:1.22rem;line-height:1.2;font-weight:700;color:#333;margin:0 0 7px}
+.author-bio{font-size:.83rem;color:#777;line-height:1.45;margin:0 auto 16px;max-width:230px}
+.author-meta{list-style:none;padding:0;margin:0;text-align:left;color:#666}
+.author-meta li{margin:8px 0;line-height:1.45}
+.author-meta i{width:18px;text-align:center;margin-right:6px;color:#777}
+.author-meta a{color:#555}
+.author-meta a:hover{color:#2f6f9f}
+.content{min-width:0;max-width:850px}
+h1{font-size:1.8rem;line-height:1.25;color:#333;margin:0 0 1.3rem;font-weight:700}
+h2{font-size:1.35rem;line-height:1.3;color:#333;margin:2rem 0 .7rem}
+h3{font-size:1.05rem;line-height:1.35;color:#333;margin:1.5rem 0 .25rem}
+p{margin:0 0 1.1rem}
+.about p{max-width:850px}
+.home-title{margin-bottom:1rem}
+.home-intro{font-size:1rem}
+.entry{margin:0 0 1.5rem}
+.entry-title{font-size:1rem;font-weight:700;color:#333;margin:0 0 .18rem}
+.entry-sub{margin:0;color:#555;font-size:.95rem}
+.entry-meta{font-size:.92rem;color:#666;margin-top:.18rem}
+.rule{height:1px;background:#eee;border:0;margin:1.7rem 0}
+.skill-list{margin:0;padding:0;list-style:none}
+.skill-list li{margin:.45rem 0;font-size:.95rem}
+.skill-list strong{color:#333}
+.project{margin:0 0 1.55rem}
+.project-title{font-size:1rem;font-weight:700;color:#333;margin:0 0 .25rem}
+.project-desc{margin:0;display:inline;font-size:.95rem}
+.inline-link{white-space:nowrap;margin-left:6px}
+.inline-link i{font-size:.78em}
+.coursework-intro{display:flex;gap:1.2rem;align-items:flex-start}
+.coursework-label{flex:0 0 105px;color:#555;font-size:.95rem;font-weight:600;padding-top:2px}
+.course-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.course-column h2{font-size:1rem;margin:0 0 .75rem;color:#333}
+.course-column ul{list-style:none;padding:0;margin:0}
+.course-column li{border:1px solid #d9d9d9;padding:8px 10px;margin:0 0 9px;color:#555;font-size:.82rem;line-height:1.35;background:#fff}
+.cert-intro{margin-bottom:1.6rem}
+.cert-list{list-style:none;margin:0;padding:0}
+.cert-item{margin:0 0 1.05rem}
+.cert-title{font-weight:700;color:#333}
+.cert-title i{font-size:.72em;margin-left:5px;color:#777}
+.cert-meta{font-size:.9rem;color:#777;margin-top:2px}
+.leadership-item{position:relative;margin:0 0 1.65rem;padding-left:1.25rem;border-left:2px solid #e5e5e5}
+.leadership-item:before{content:"";position:absolute;left:-5px;top:.35rem;width:8px;height:8px;border-radius:50%;background:#aaa}
+.leadership-title{font-size:1rem;font-weight:700;color:#333;margin:0}
+.leadership-role{font-size:.9rem;color:#666;margin:.1rem 0 .35rem}
+.leadership-desc{font-size:.94rem;margin:0}
+.document-list{list-style:none;padding:0;margin:0}
+.document-list li{margin:.8rem 0}
+.document-list a{font-size:.98rem}
+.document-list i{margin-left:5px;font-size:.78em;color:#777}
+.note{font-size:.82rem;color:#888;margin-top:2rem}
+@media(max-width:1050px){.page{grid-template-columns:215px minmax(0,1fr);gap:3em}.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav a{padding-left:8px;padding-right:8px;font-size:.84rem}}
+@media(max-width:800px){.site-header{min-height:auto}.masthead{padding:.5em 1.2em}.nav{margin-left:0;width:100%}.nav ul{justify-content:center}.nav a{padding:10px 7px;font-size:.8rem}.page{display:block;padding:2em 1.3em 3em}.sidebar{margin-bottom:2.5em}.author-avatar{width:145px;height:145px}.author-meta{text-align:center}.author-meta li{display:inline-block;margin:5px 8px}.content{max-width:none}.coursework-intro{display:block}.coursework-label{margin-bottom:1rem}.course-grid{grid-template-columns:1fr 1fr;gap:18px}}
+@media(max-width:520px){.course-grid{grid-template-columns:1fr}.nav ul{justify-content:flex-start}.nav a{font-size:.76rem;padding:8px 5px}.author-meta li{display:block;margin:7px 0}.content h1{font-size:1.55rem}}
