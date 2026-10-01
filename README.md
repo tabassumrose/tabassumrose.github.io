@@ -1,6 +1,6 @@
 # Tabassum Haque Rose — Academic Portfolio
 
-This is a static GitHub Pages portfolio styled to closely follow the supplied AcademicPages / Minimal Mistakes reference site while using the requested personal content.
+This is a static GitHub Pages portfolio styled to closely follow the preferred AcademicPages / Minimal Mistakes reference site while using the personal content to enhance it's personalization.
 
 ## Upload
 
