@@ -14,7 +14,7 @@ a{color:#2f6f9f;text-decoration:none}a:hover{color:#1f4e70;text-decoration:under
 .page{max-width:1280px;margin:0 auto;padding:2.8em 2em 4em;display:grid;grid-template-columns:250px minmax(0,1fr);gap:4.2em}
 .sidebar{font-size:.85rem}
 .author-profile{text-align:center}
-.author-avatar{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center 40%;display:block;margin:0 auto 18px;border:0}
+.author-avatar{width:160px;height:160px;border-radius:50%;object-fit:cover;object-position:center 45%;display:block;margin:0 auto 18px;border:0}
 .author-name{font-size:1.22rem;line-height:1.2;font-weight:700;color:#333;margin:0 0 7px}
 .author-bio{font-size:.83rem;color:#777;line-height:1.45;margin:0 auto 16px;max-width:230px}
 .author-meta{list-style:none;padding:0;margin:0;text-align:left;color:#666}
